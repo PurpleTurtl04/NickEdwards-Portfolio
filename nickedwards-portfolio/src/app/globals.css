@@ -1,6 +1,20 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+@plugin "daisyui";
 
-:root {
+@theme {
+    /* Colors */
+    --color-portfolio-primary300: #575e5c;
+    --color-portfolio-primary500: #384542;
+    --color-portfolio-primary700: #242c2a;
+    --color-portfolio-secondary300: #6871f2;
+    --color-portfolio-secondary500: #5d65d9;
+    --color-portfolio-secondary700: #474da6;
+    /* Breakpoints */
+    --breakpoint-xs: 30rem;
+    --breakpoint-3xl: 121rem; /* 120rem is 1920px */
+}
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +37,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
