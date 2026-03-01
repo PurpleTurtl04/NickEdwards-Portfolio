@@ -17,23 +17,23 @@ function HeroSection() {
                     <h2 className='text-2xl md:text-3xl lg:text-4xl'>
                         Hello I&apos;m
                     </h2>
-                    <h1 className='text-6xl md:text-7xl lg:text-8xl font-bold text-primary lg:ml-5 pt-3'>
+                    <h1 className='text-primary pt-3 text-6xl font-bold md:text-7xl lg:ml-5 lg:text-8xl'>
                         Nick
                     </h1>
-                    <h3 className='text-lg md:text-xl lg:text-2xl pt-3 max-w-83 md:max-w-sm lg:max-w-lg'>
+                    <h3 className='max-w-83 pt-3 text-lg md:max-w-sm md:text-xl lg:max-w-lg lg:text-2xl'>
                         A Full-Stack Web
-                        <span className='font-bold text-secondary/80'>
+                        <span className='text-secondary/80 font-bold'>
                             {' '}
                             Developer{' '}
                         </span>
                         &
-                        <span className='font-bold text-accent/80'>
+                        <span className='text-accent/80 font-bold'>
                             {' '}
                             Designer{' '}
                         </span>
                         with an analytical background
                     </h3>
-                    <div className='flex gap-2 pt-6 justify-center lg:justify-start'>
+                    <div className='flex justify-center gap-2 pt-6 lg:justify-start'>
                         <button className='btn btn-primary'>
                             Got a Project?
                         </button>

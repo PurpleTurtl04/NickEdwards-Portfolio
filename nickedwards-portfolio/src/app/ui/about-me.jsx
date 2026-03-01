@@ -1,6 +1,6 @@
 function AboutMe() {
     return (
-        <div className='container mx-auto grid grid-cols-2 bg-base-200 '>
+        <div className='bg-base-200 container mx-auto grid grid-cols-2'>
             <div className='flex'>
                 <div>8+ Years of Experience</div>
                 <div>Web/Software Development</div>
