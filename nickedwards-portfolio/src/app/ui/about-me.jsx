@@ -21,7 +21,7 @@ function AboutMe() {
                     sed eros vestibulum, efficitur pulvinar risus posuere.{' '}
                 </p>
             </div>
-            <div className='flex justify-center gap-4'>
+            <div className='flex justify-center lg:gap-4'>
                 <div>
                     <Image
                         src={Accent}
