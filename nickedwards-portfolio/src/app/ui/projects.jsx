@@ -13,7 +13,7 @@ function Projects() {
                     width={10}
                     height={75}
                     alt='A lines with a cicle'
-                    className='hidden scale-75 lg:block'
+                    className='scale-75'
                 />
             </div>
             <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'></div>
