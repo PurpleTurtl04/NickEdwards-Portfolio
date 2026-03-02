@@ -7,7 +7,7 @@ import Design from '../../../public/Design.svg';
 
 function AboutMe() {
     return (
-        <div className='container mx-auto my-15 grid grid-cols-1 items-center justify-center gap-6 lg:grid-cols-2'>
+        <div className='container mx-auto my-15 grid grid-cols-1 items-center justify-center gap-6 px-6 lg:grid-cols-2'>
             <div className='flex flex-col items-center lg:order-2'>
                 <h2 className='text-center text-3xl lg:text-4xl'>About Me</h2>
                 <p className='max-w-lg text-justify lg:text-left'>
@@ -32,7 +32,7 @@ function AboutMe() {
                     />
                 </div>
                 <div className='flex flex-col justify-center gap-6 md:flex-row lg:order-1 lg:flex-col'>
-                    <div className='flex flex-col-reverse items-center justify-center gap-2 lg:flex-row lg:justify-start lg:gap-4'>
+                    <div className='flex flex-col items-center justify-center gap-2 lg:flex-row lg:justify-start lg:gap-4'>
                         <Image
                             src={Eight}
                             width={75}
@@ -42,7 +42,7 @@ function AboutMe() {
                         />
                         <p>8+ Years of Experience</p>
                     </div>
-                    <div className='flex flex-col-reverse items-center justify-center gap-2 lg:flex-row lg:justify-start lg:gap-4'>
+                    <div className='flex flex-col items-center justify-center gap-2 lg:flex-row lg:justify-start lg:gap-4'>
                         <Image
                             src={Dev}
                             width={75}
@@ -52,7 +52,7 @@ function AboutMe() {
                         />
                         <p>Web/Software Development</p>
                     </div>
-                    <div className='flex flex-col-reverse items-center justify-center gap-2 lg:flex-row lg:justify-start lg:gap-4'>
+                    <div className='flex flex-col items-center justify-center gap-2 lg:flex-row lg:justify-start lg:gap-4'>
                         <Image
                             src={Design}
                             width={75}
